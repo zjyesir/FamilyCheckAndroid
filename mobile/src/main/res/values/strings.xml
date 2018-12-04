@@ -1,3 +1,92 @@
 <resources>
     <string name="app_name">Leon</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- dossier library icon font -->
+    <string name="dossier_no_image">&#xe80d;</string>
+    <string name="dossier_none">&#xe81b;</string>
+    <string name="dossier_login_needed">&#xe882;</string>
+    <string name="server_connected">&#xe808;</string>
+    <string name="dossier_icon_text">&#xea86;</string>
+    <string name="all_dossiers_icon_text">&#xe801;</string>
+    <string name="search_icon_text">&#xe816;</string>
+    <string name="sort_icon_text">&#xe818;</string>
+    <string name="user_info_icon_text">&#xe81d;</string>
+    <string name="guest_info_icon_text">&#xe829;</string>
+    <string name="chapters_icon_text">&#xe807;</string>
+    <string name="filter_icon_text">&#xe810;</string>
+    <string name="filter_filled_icon_text">&#xe926;</string>
+    <string name="share_icon_text">&#xe817;</string>
+    <string name="check_icon_text">&#xe808;</string>
+    <string name="icon_dossier_text">&#xe80d;</string>
+    <string name="icon_chapter_text">&#xe869;</string>
+    <string name="icon_page_text">&#xe86b;</string>
+    <string name="icon_user_text">&#xe81d;</string>
+    <string name="icon_edit_btn">&#xe81e;</string>
+    <string name="icon_check_mark">&#xe808;</string>
+    <string name="icon_trash_btn">&#xe81f;</string>
+    <string name="icon_info_btn">&#xe8c3;</string>
+    <string name="icon_refresh">&#xe814;</string>
+    <string name="icon_reset_btn">&#xebc3;</string>
+    <string name="offline_icon">&#xe81c;</string>
+    <string name="icon_time">&#xe8ee;</string>
+    <string name="icon_view">&#xe8ef;</string>
+    <string name="icon_at_icon">&#xe8f0;</string>
+    <string name="icon_notification">&#xe8ea;</string>
+    <string name="icon_right">&#xe815;</string>
+    <string name="icon_no_search_results">&#xe8ab;</string>
+    <string name="bullet_icon">&#xe82c;</string>
+    <string name="icon_setting">&#xe82b;</string>
+    <string name="icon_font_file_name">mobile_dossier_android.ttf</string>
+
+    <string name="checkbox_unchecked_icon">&#xe809;</string>
+    <string name="checkbox_checked_icon">&#xe80a;</string>
+    <string name="down_icon">&#xe80e;</string>
+    <string name="right_icon">&#xe803;</string>
+    <string name="icon_no_notification">&#xe832;</string>
+    <string name="trans_half_icon">&#xe8f2;</string>
+    <string name="trans_icon">&#xe8f3;</string>
+    <string name="time_stamp_icon">&#xe8f8;</string>
+    <string name="error_icon">&#xe8f5;</string>
+    <string name="success_icon">&#xe8f6;</string>
+
+    <string name="icon_collaboration">&#xe86a;</string>
+    <string name="icon_Information">&#xe8c3;</string>
+    <string name="icon_Information_filled">&#xe9ad;</string>
+    <string name="icon_certified">&#xe938;</string>
+    <string name="icon_rsd">&#xe8c1;</string>
+    <string name="icon_mentioned">&#xe8c4;</string>
+    <string name="icon_list_view">&#xe827;</string>
+    <string name="icon_card_view">&#xe880;</string>
+    <string name="download_indicator_icon">&#xe820;</string>
+    <string name="dossier_new_icon">&#xe828;</string>
+    <string name="icon_attribute_fill">&#xe9d3;</string>
+    <string name="icon_attribute">&#xe9d4;</string>
+    <string name="icon_plus">&#xe800;</string>
+    <string name="icon_subtract">&#xe9fb;</string>
+    <string name="icon_edit_mode_switch">&#xe9fe;</string>
+    <string name="icon_barcode">&#xe9ff;</string>
+    <string name="icon_sound_on">&#xea03;</string>
+    <string name="icon_sound_off">&#xea02;</string>
+    <string name="icon_flashlight_on">&#xea00;</string>
+    <string name="icon_flashlight_off">&#xea01;</string>
+
+    <string name="icon_more">&#xe813;</string>
+    <string name="icon_add">&#xe800;</string>
+    <!--dossier login icon font-->
+    <string name="dossier_saml_login_icon">&#xebcb;</string>
+    <string name="dossier_trust_login_icon">&#xebcc;</string>
+    <string name="icon_check_circle_empty">&#xe91c;</string>
+    <string name="icon_radio_button">&#xe91d;</string>
+
 </resources>

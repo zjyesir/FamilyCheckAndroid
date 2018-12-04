@@ -1,1 +1,1 @@
-include ':mobile', ':wear', ':tv', ':things', ':sharedlibrary', ':mylibrary', ':commonLibrary', ':my_library'
+include ':mobile', ':wear', ':tv', ':things',  ':my_library'

@@ -5,13 +5,17 @@ import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.Ignore;
 import android.arch.persistence.room.PrimaryKey;
 import android.graphics.Bitmap;
+import android.support.annotation.NonNull;
 
-@Entity(tableName = "RelationShip")
+@Entity( primaryKeys = {"familyName","givenName"},tableName = "RelationShip")
 public class Person {
 
+    public Person(String familyName,String givenName){
+        this.familyName = familyName;
+        this.givenName = givenName;
+    }
 
-
-    @PrimaryKey
+@NonNull
     String familyName;
 
     public String getGivenName() {
@@ -33,10 +37,32 @@ public class Person {
     @Ignore
     private Bitmap image;
 
-    @PrimaryKey
+    @NonNull
     String givenName;
+    @Ignore
     Person father;
+    @Ignore
     Person mother;
+
+    String fatherFullName;
+    String motherFullName;
+
+    public String getFatherFullName() {
+        return fatherFullName;
+    }
+
+    public void setFatherFullName(String fatherFullName) {
+        this.fatherFullName = fatherFullName;
+    }
+
+    public String getMotherFullName() {
+        return motherFullName;
+    }
+
+    public void setMotherFullName(String motherFullName) {
+        this.motherFullName = motherFullName;
+    }
+
     public String getFamilyName() {
         return familyName;
     }
@@ -44,39 +70,45 @@ public class Person {
     public void setFamilyName(String familyName) {
         this.familyName = familyName;
     }
-    class BirthDay{
-        private int yearOfBirth;
-        private int monthOfBirth;
-        private int dayOfBirth;
 
-        public int getYearOfBirth() {
-            return yearOfBirth;
-        }
+//    @Embedded
+//    Birthday birthDay;
+    private int yearOfBirth;
+    private int monthOfBirth;
 
-        public int getMonthOfBirth() {
-            return monthOfBirth;
-        }
-
-        public int getDayOfBirth() {
-            return dayOfBirth;
-        }
-
-        public BirthDay(int year, int month, int day){
-            this.yearOfBirth = year;
-            this.monthOfBirth = month;
-            this.dayOfBirth = day;
-        }
-    }
-    @Embedded
-    BirthDay birthDay;
-
-    public BirthDay getBirthDay() {
-        return birthDay;
+    public int getYearOfBirth() {
+        return yearOfBirth;
     }
 
-    public void setBirthDay(BirthDay birthDay) {
-        this.birthDay = birthDay;
+    public void setYearOfBirth(int yearOfBirth) {
+        this.yearOfBirth = yearOfBirth;
     }
+
+    public int getMonthOfBirth() {
+        return monthOfBirth;
+    }
+
+    public void setMonthOfBirth(int monthOfBirth) {
+        this.monthOfBirth = monthOfBirth;
+    }
+
+    public int getDayOfBirth() {
+        return dayOfBirth;
+    }
+
+    public void setDayOfBirth(int dayOfBirth) {
+        this.dayOfBirth = dayOfBirth;
+    }
+
+    private int dayOfBirth;
+
+//    public Birthday getBirthDay() {
+//        return birthDay;
+//    }
+//
+//    public void setBirthDay(Birthday birthDay) {
+//        this.birthDay = birthDay;
+//    }
 
     public Person getFather() {
         return father;
